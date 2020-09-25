@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cucumber Suite]">
+  <test name="Cucumeber Test(failed)">
+    <classes>
+      <class name="com.hipsocial.stepdefinitions.RunCukesTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="onStart"/>
+        </methods>
+      </class> <!-- com.hipsocial.stepdefinitions.RunCukesTest -->
+    </classes>
+  </test> <!-- Cucumeber Test(failed) -->
+</suite> <!-- Failed suite [Cucumber Suite] -->
