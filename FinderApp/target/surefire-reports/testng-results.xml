@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cucumber Suite" duration-ms="3935" started-at="2020-08-13T14:46:15 IST" finished-at="2020-08-13T14:46:19 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:step_definitions.RunCukesTest@49070868]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Cucumeber Test" duration-ms="3935" started-at="2020-08-13T14:46:15 IST" finished-at="2020-08-13T14:46:19 IST">
+      <class name="step_definitions.RunCukesTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:step_definitions.RunCukesTest@49070868]" name="setUpClass" is-config="true" duration-ms="794" started-at="2020-08-13T14:46:15 IST" finished-at="2020-08-13T14:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="onStart()[pri:0, instance:step_definitions.RunCukesTest@49070868]" name="onStart" is-config="true" duration-ms="2160" started-at="2020-08-13T14:46:16 IST" finished-at="2020-08-13T14:46:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onStart -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:step_definitions.RunCukesTest@49070868]" name="feature" duration-ms="174" started-at="2020-08-13T14:46:18 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-13T14:46:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test the login functionaliy of the finder app in 500apps portal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="onFinish()[pri:0, instance:step_definitions.RunCukesTest@49070868]" name="onFinish" is-config="true" duration-ms="496" started-at="2020-08-13T14:46:18 IST" finished-at="2020-08-13T14:46:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onFinish -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:step_definitions.RunCukesTest@49070868]" name="tearDownClass" is-config="true" duration-ms="47" started-at="2020-08-13T14:46:19 IST" finished-at="2020-08-13T14:46:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- step_definitions.RunCukesTest -->
+    </test> <!-- Cucumeber Test -->
+  </suite> <!-- Cucumber Suite -->
+</testng-results>
