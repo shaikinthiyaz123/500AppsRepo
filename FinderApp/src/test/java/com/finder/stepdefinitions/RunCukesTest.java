@@ -114,7 +114,7 @@ public class RunCukesTest extends AbstractTestNGCucumberTests {
 
 		WebElement pass = GlobalUtil.getDriver().findElement(password_loc);
 		pass.sendKeys(password);
-		KeywordUtil.delay(2000);
+		KeywordUtil.delay(1500);
 		WebElement click = GlobalUtil.getDriver().findElement(submit_loc);
 		click.click();
 		
