@@ -17,7 +17,7 @@ public class EmailFinderPage  {
 	public static By Enter_EmailFinder_InputDomain_Xpath=By.xpath("//input[@id='input_domain']");
 	public static By Find_Button_Xpath = By.xpath("//button[text()='Find']");
 	public static By EmialFinder_Frontend_Card_Css= By.cssSelector("p[class*='finder-emailfindercard-font']");
-	public static By  Confidence_Score_Css = By.xpath("//div[contains(@class,'card-body p-0 border-0')]//following::div[contains(@class,'col-3 finder-success')]//descendant::div[2]");
+	public static By  Confidence_Score_xpath = By.xpath("//div[@class='d-flex align-items-center justify-content-center']//descendant::div");
 
 
 	

@@ -133,10 +133,10 @@ public class FinderAppSteps extends KeywordUtil {
 			action.sendKeys(Keys.TAB).sendKeys(Keys.ENTER).build().perform();
 
 			ExtendUtil.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor("Click on Enter to find Email"));
-			scrollingToElementofAPage(EmailFinderPage.Confidence_Score_Css,
+			scrollingToElementofAPage(EmailFinderPage.Confidence_Score_xpath,
 					"Scroll to get confidance score of an email");
 			delay(1000);
-			String txt = getElementText(EmailFinderPage.Confidence_Score_Css);
+			String txt = getElementText(EmailFinderPage.Confidence_Score_xpath);
 			ExtendUtil.logger.log(LogStatus.PASS,
 					HTMLReportUtil.passStringGreenColor("Confidance score of  Email:" + txt));
 
