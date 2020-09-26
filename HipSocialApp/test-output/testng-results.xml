@@ -2,56 +2,32 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Cucumber Suite" duration-ms="86378" started-at="2020-09-18T10:12:32Z" finished-at="2020-09-18T10:13:59Z">
+  <suite name="Cucumber Suite" duration-ms="45885" started-at="2020-09-25T17:35:09Z" finished-at="2020-09-25T17:35:54Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@86be70a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@7e2d773b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Cucumeber Test" duration-ms="86378" started-at="2020-09-18T10:12:32Z" finished-at="2020-09-18T10:13:59Z">
+    <test name="Cucumeber Test" duration-ms="45885" started-at="2020-09-25T17:35:09Z" finished-at="2020-09-25T17:35:54Z">
       <class name="com.hipsocial.stepdefinitions.RunCukesTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@86be70a]" name="setUpClass" is-config="true" duration-ms="1045" started-at="2020-09-18T15:42:32Z" finished-at="2020-09-18T15:42:33Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@7e2d773b]" name="setUpClass" is-config="true" duration-ms="846" started-at="2020-09-25T23:05:09Z" finished-at="2020-09-25T23:05:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="onStart()[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@86be70a]" name="onStart" is-config="true" duration-ms="0" started-at="2020-09-18T15:42:33Z" finished-at="2020-09-18T15:42:33Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'IMTIYAZ-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Imtiyaz\AppData\Local\Temp\scoped_dir5924_1866642902}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50993}, acceptInsecureCerts=false, browserVersion=85.0.4183.102, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
-Session ID: f786a56ea1a6014dde925909092d9d94
-*** Element info: {Using=id, value=user}]]>
-            </message>
+        <test-method status="FAIL" signature="onStart()[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@7e2d773b]" name="onStart" is-config="true" duration-ms="0" started-at="2020-09-25T23:05:09Z" finished-at="2020-09-25T23:05:09Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'IMTIYAZ-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Imtiyaz\AppData\Local\Temp\scoped_dir5924_1866642902}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50993}, acceptInsecureCerts=false, browserVersion=85.0.4183.102, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
-Session ID: f786a56ea1a6014dde925909092d9d94
-*** Element info: {Using=id, value=user}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at com.hipsocial.stepdefinitions.RunCukesTest.onStart(RunCukesTest.java:102)
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:446)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at com.hipsocial.stepdefinitions.RunCukesTest.onStart(RunCukesTest.java:114)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -73,16 +49,16 @@ Session ID: f786a56ea1a6014dde925909092d9d94
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
 	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onStart -->
-        <test-method status="SKIP" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@86be70a]" name="feature" duration-ms="4" started-at="2020-09-18T15:43:59Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-18T15:43:59Z">
+        <test-method status="SKIP" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@7e2d773b]" name="feature" duration-ms="3" started-at="2020-09-25T23:05:54Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-25T23:05:54Z">
           <params>
             <param index="0">
               <value>
@@ -93,11 +69,11 @@ Session ID: f786a56ea1a6014dde925909092d9d94
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="SKIP" signature="onFinish()[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@86be70a]" name="onFinish" is-config="true" duration-ms="0" started-at="2020-09-18T15:43:59Z" finished-at="2020-09-18T15:43:59Z">
+        <test-method status="SKIP" signature="onFinish()[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@7e2d773b]" name="onFinish" is-config="true" duration-ms="0" started-at="2020-09-25T23:05:54Z" finished-at="2020-09-25T23:05:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onFinish -->
-        <test-method status="SKIP" signature="tearDownClass()[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@86be70a]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-09-18T15:43:59Z" finished-at="2020-09-18T15:43:59Z">
+        <test-method status="SKIP" signature="tearDownClass()[pri:0, instance:com.hipsocial.stepdefinitions.RunCukesTest@7e2d773b]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-09-25T23:05:54Z" finished-at="2020-09-25T23:05:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
