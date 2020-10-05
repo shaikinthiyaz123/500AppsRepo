@@ -8,6 +8,7 @@ import java.util.Map;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -29,6 +30,9 @@ public class DriverUtil {
 	public static final String REMOTE = "Remote";
 	public static final String EDGE = "edge";
 	public static final String CHROME = "Chrome";
+	public static final String CHROMEHEADLESS = "Chromeheadless";
+	public static final String CHROMELINUX = "Chromelinux";
+	public static final String CHROMELINUXHEADLESS = "Chromelinuxheadless";
 	private static Map<String, WebDriver> drivers = new HashMap<>();
 	public static final WebDriver driver = null;
 	private static HashMap<String, String> checkLogin = new HashMap<>();
@@ -162,7 +166,59 @@ public class DriverUtil {
 						WebDriverManager.chromedriver().setup();
 						browser = new ChromeDriver();
 						drivers.put("Chrome", browser);
-					} // End if
+					}
+					// End if
+				}else if (browserName.equalsIgnoreCase(CHROMEHEADLESS)) {
+					// Write code for chrome
+					browser = drivers.get(browserName);
+					if (browser == null) {
+				
+						File chrome = new File(ConfigReader.getValue("ChromeDriverPathWindows"));
+						System.setProperty("webdriver.chrome.driver", chrome.getAbsolutePath());
+						ChromeOptions chromeOptions = new ChromeOptions();
+						chromeOptions.addArguments("--headless");
+						chromeOptions.addArguments("window-size=1200x600");
+						chromeOptions.addArguments("--no-sandbox");
+						//chromeOptions.addArguments("--disable-dev-shm-usage");
+						// chromeOptions.addArguments("--disable-gpu");
+
+						browser = new ChromeDriver(chromeOptions);
+						//driver.manage().window().maximize();
+						
+						drivers.put("Chromeheadless", browser);
+
+					} 
+				}else if  (browserName.equalsIgnoreCase(CHROMELINUX)) {
+					// Write code for chrome
+					browser = drivers.get(browserName);
+					if (browser == null) {
+				
+						File chrome = new File(ConfigReader.getValue("ChromeDriverPathLinux"));
+						System.setProperty("webdriver.chrome.driver", chrome.getAbsolutePath());
+						browser = new ChromeDriver();
+						drivers.put("Chromelinux", browser);
+
+					} 
+					}else if (browserName.equalsIgnoreCase(CHROMELINUXHEADLESS)) {
+						// Write code for chrome
+						browser = drivers.get(browserName);
+						if (browser == null) {
+					
+							File chrome = new File(ConfigReader.getValue("ChromeDriverPathLinux"));
+							System.setProperty("webdriver.chrome.driver", chrome.getAbsolutePath());
+							// WebDriverManager.chromedriver().setup();
+							ChromeOptions chromeOptions = new ChromeOptions();
+
+							chromeOptions.addArguments("--headless");
+							chromeOptions.addArguments("window-size=1200x600");
+							chromeOptions.addArguments("--no-sandbox");
+							chromeOptions.addArguments("--disable-dev-shm-usage");
+							// chromeOptions.addArguments("--disable-gpu");
+
+							browser = new ChromeDriver(chromeOptions);
+							drivers.put("Chromelinuxheadless", browser);
+
+						} 
 				} else if (browserName.equalsIgnoreCase(IE)) {
 					// Write code for IE
 					browser = drivers.get(browserName);

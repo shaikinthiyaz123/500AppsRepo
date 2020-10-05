@@ -13,9 +13,9 @@ public class FileUploadingRobotClass {
 	public static void uploadfile(String path) throws AWTException {
 		
 		 Robot robot = new Robot();
-		System.out.println(System.getProperty("user.dir")+"\\"+path);
+			System.out.println(System.getProperty("user.dir") + "/" + path);
 	       robot.setAutoDelay(500);
-		 StringSelection selection = new StringSelection(System.getProperty("user.dir")+"\\"+path);
+		 StringSelection selection = new StringSelection(System.getProperty("user.dir") + "/" + path);
 	        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection,null);
 	 
 	        robot.setAutoDelay(1000);

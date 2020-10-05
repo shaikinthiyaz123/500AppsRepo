@@ -2,16 +2,12 @@ package com.finder.stepdefinitions;
 
 import java.util.HashMap;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -21,7 +17,6 @@ import com.finder.finderPages.BulkEmailVerifypage;
 import com.finder.finderPages.DomainSearchPage;
 import com.finder.finderPages.EmailFinderPage;
 import com.finder.finderPages.EmailVerifyPage;
-import com.finder.finderPages.FinderLoginPage;
 import com.finder.finderPages.ListsPage;
 import com.relevantcodes.extentreports.LogStatus;
 
@@ -226,7 +221,7 @@ public class FinderAppSteps extends KeywordUtil {
 		try {
 			KeywordUtil.click(BulkEmailVerifypage.EmailVerify_UploadButton_Xpath, "Click on upload button");
 
-			FileUploadingRobotClass.uploadfile("src\\test\\resources\\testData\\UploadFiles\\verify7.csv");
+			FileUploadingRobotClass.uploadfile("src/test/resources/testData/UploadFiles/verify7.csv");
 		} catch (Throwable e) {
 			GlobalUtil.e = e;
 			GlobalUtil.ErrorMsg = e.getMessage();
@@ -300,7 +295,9 @@ public class FinderAppSteps extends KeywordUtil {
 		try {
 			KeywordUtil.click(BulkEmailFinderPage.EmailFinder_UploadButton_Xpath, "Click on Upload button");
 
-			FileUploadingRobotClass.uploadfile("src\\test\\resources\\testData\\UploadFiles\\Emialfinder10rec.csv");
+			FileUploadingRobotClass.uploadfile("src/test/resources/testData/UploadFiles/Emialfinder10rec.csv");
+			//src\test\resources\testData\UploadFiles
+			
 		} catch (Throwable e) {
 			GlobalUtil.e = e;
 			GlobalUtil.ErrorMsg = e.getMessage();
@@ -384,7 +381,7 @@ public class FinderAppSteps extends KeywordUtil {
 		try {
 			KeywordUtil.click(BulkDomainSearchPage.BulkDomainSearch_UploadButton_Xpath, "Click on Upload button");
 
-			FileUploadingRobotClass.uploadfile("src\\test\\resources\\testData\\UploadFiles\\DS_10Rec.csv");
+			FileUploadingRobotClass.uploadfile("src/test/resources/testData/UploadFiles/DS_10Rec.csv");
 		} catch (Throwable e) {
 			GlobalUtil.e = e;
 			GlobalUtil.ErrorMsg = e.getMessage();

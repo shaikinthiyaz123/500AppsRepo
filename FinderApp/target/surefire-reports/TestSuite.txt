@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.937 sec - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 277.702 s <<< FAILURE! - in TestSuite
+com.finder.stepdefinitions.RunCukesTest.feature[Test the functionaliy of the finder app in 500apps portal](1)  Time elapsed: 174.938 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //h3[contains(text(),'Email Verify')]/following::main (tried for 10 second(s) with 500 MILLISECONDS interval)
+Caused by: java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //h3[contains(text(),'Email Verify')]/following::main (tried for 10 second(s) with 500 MILLISECONDS interval)
+

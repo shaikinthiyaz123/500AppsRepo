@@ -59,7 +59,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 17664400,
+  "duration": 9519200,
   "status": "passed"
 });
 formatter.scenario({
@@ -104,25 +104,25 @@ formatter.match({
   "location": "FinderAppSteps.read_the_test_data_from_Excel_file_for_Finder(String)"
 });
 formatter.result({
-  "duration": 4269296700,
+  "duration": 4832298600,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.enter_the_DomainName_for_Domainsearch()"
 });
 formatter.result({
-  "duration": 8971314500,
+  "duration": 18704092600,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.click_on_Find_Email_Address()"
 });
 formatter.result({
-  "duration": 13440199900,
+  "duration": 13496988100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3810700,
+  "duration": 3786700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -183,7 +183,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2435600,
+  "duration": 3370900,
   "status": "passed"
 });
 formatter.scenario({
@@ -233,32 +233,32 @@ formatter.match({
   "location": "FinderAppSteps.read_the_test_data_from_Excel_file_for_Finder(String)"
 });
 formatter.result({
-  "duration": 116917500,
+  "duration": 150192600,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.click_on_Email_Finder_module()"
 });
 formatter.result({
-  "duration": 357322100,
+  "duration": 419742000,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.enter_FN_LN_and_DN_for_Emailfinder()"
 });
 formatter.result({
-  "duration": 1776991400,
+  "duration": 1770827200,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.click_on_Find()"
 });
 formatter.result({
-  "duration": 6640892000,
+  "duration": 6365408300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 731200,
+  "duration": 622400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -319,7 +319,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1983500,
+  "duration": 1870100,
   "status": "passed"
 });
 formatter.scenario({
@@ -369,32 +369,32 @@ formatter.match({
   "location": "FinderAppSteps.read_the_test_data_from_Excel_file_for_Finder(String)"
 });
 formatter.result({
-  "duration": 621198300,
+  "duration": 145387600,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.click_on_Email_Verify_module()"
 });
 formatter.result({
-  "duration": 740917700,
+  "duration": 268117900,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.enter_the_email_address_for_Emailverify()"
 });
 formatter.result({
-  "duration": 3387022800,
+  "duration": 1282421500,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.click_on_find_Button()"
 });
 formatter.result({
-  "duration": 862126000,
+  "duration": 1251152200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 735900,
+  "duration": 768100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -465,7 +465,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1776900,
+  "duration": 2300700,
   "status": "passed"
 });
 formatter.scenario({
@@ -525,46 +525,47 @@ formatter.match({
   "location": "FinderAppSteps.read_the_test_data_from_Excel_file_for_Finder(String)"
 });
 formatter.result({
-  "duration": 135807200,
+  "duration": 128790500,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.click_on_Bulk_module()"
 });
 formatter.result({
-  "duration": 337890300,
+  "duration": 560379200,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.click_on_upload_csv_file_button_for_bulk_emailverify()"
 });
 formatter.result({
-  "duration": 4053331700,
+  "duration": 4510251500,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.click_on_up_arrow_button_to_upload_the_file_for_bulk_emailverify()"
 });
 formatter.result({
-  "duration": 7117802300,
+  "duration": 7809090300,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.select_the_fields_in_mapping_screen_window_for_bulk_emailverify()"
 });
 formatter.result({
-  "duration": 226394200,
+  "duration": 50408051400,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.click_on_import_from_csv_for_bulk_emailverify()"
 });
 formatter.result({
-  "duration": 16546427900,
-  "status": "passed"
+  "duration": 21489755000,
+  "error_message": "java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //h3[contains(text(),\u0027Email Verify\u0027)]/following::main (tried for 10 second(s) with 500 MILLISECONDS interval)\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat com.finder.stepdefinitions.FinderAppSteps.click_on_import_from_csv_for_bulk_emailverify(FinderAppSteps.java:265)\r\n\tat ✽.Then click on import from csv for bulk emailverify(features/FinderApp.feature:46)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 1654500,
+  "duration": 279285100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -645,7 +646,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1545700,
+  "duration": 2628800,
   "status": "passed"
 });
 formatter.scenario({
@@ -715,434 +716,9 @@ formatter.match({
   "location": "FinderAppSteps.read_the_test_data_from_Excel_file_for_Finder(String)"
 });
 formatter.result({
-  "duration": 145894000,
+  "duration": 106319800,
   "status": "passed"
 });
 formatter.match({
   "location": "FinderAppSteps.click_on_Bulk_module()"
-});
-formatter.result({
-  "duration": 250597800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.click_on_email_finder_for_bulk_emailfinder()"
-});
-formatter.result({
-  "duration": 233393700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.click_on_upload_csv_file_button_for_bulk_emailfinder()"
-});
-formatter.result({
-  "duration": 218604000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.click_on_up_arrow_button_to_upload_the_file_for_bulk_emailfinder()"
-});
-formatter.result({
-  "duration": 5773375100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.select_the_fields_in_mapping_screen_window_in_bulk_emailfinder()"
-});
-formatter.result({
-  "duration": 409652700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.click_on_import_from_csv_in_bulk_emailfinder()"
-});
-formatter.result({
-  "duration": 66256800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.verify_list_of_valid_emails_will_display_or_not_in_a_grid_view_or_tabular_form()"
-});
-formatter.result({
-  "duration": 11786818100,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 689100,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "line": 67,
-  "name": "Verify that user is able to upload CSV file for Bulk DomainSearch",
-  "description": "",
-  "id": "test-the-functionaliy-of-the-finder-app-in-500apps-portal;verify-that-user-is-able-to-upload-csv-file-for-bulk-domainsearch",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 66,
-      "name": "@Finder"
-    }
-  ]
-});
-formatter.step({
-  "line": 68,
-  "name": "Read the test data  \"\u003cFinderTestData\u003e\" from Excel file for Finder",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 70,
-  "name": "click on Bulk module",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 71,
-  "name": "click on domain search for bulk domain search",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 72,
-  "name": "click on upload csv file button for bulk domain search",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 73,
-  "name": "click on up arrow button to upload the file for bulk domain search",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 74,
-  "name": "select the fields in mapping screen window for bulk domain search",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 75,
-  "name": "click on import from csv for bulk domain search",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 76,
-  "name": "verify user should get a download option after uploading a file for bulk domain search",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 78,
-  "name": "",
-  "description": "",
-  "id": "test-the-functionaliy-of-the-finder-app-in-500apps-portal;verify-that-user-is-able-to-upload-csv-file-for-bulk-domainsearch;",
-  "rows": [
-    {
-      "cells": [
-        "FinderTestData"
-      ],
-      "line": 79,
-      "id": "test-the-functionaliy-of-the-finder-app-in-500apps-portal;verify-that-user-is-able-to-upload-csv-file-for-bulk-domainsearch;;1"
-    },
-    {
-      "cells": [
-        "FinderTestData1"
-      ],
-      "line": 80,
-      "id": "test-the-functionaliy-of-the-finder-app-in-500apps-portal;verify-that-user-is-able-to-upload-csv-file-for-bulk-domainsearch;;2"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 1468600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 80,
-  "name": "Verify that user is able to upload CSV file for Bulk DomainSearch",
-  "description": "",
-  "id": "test-the-functionaliy-of-the-finder-app-in-500apps-portal;verify-that-user-is-able-to-upload-csv-file-for-bulk-domainsearch;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 66,
-      "name": "@Finder"
-    }
-  ]
-});
-formatter.step({
-  "line": 68,
-  "name": "Read the test data  \"FinderTestData1\" from Excel file for Finder",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 70,
-  "name": "click on Bulk module",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 71,
-  "name": "click on domain search for bulk domain search",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 72,
-  "name": "click on upload csv file button for bulk domain search",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 73,
-  "name": "click on up arrow button to upload the file for bulk domain search",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 74,
-  "name": "select the fields in mapping screen window for bulk domain search",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 75,
-  "name": "click on import from csv for bulk domain search",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 76,
-  "name": "verify user should get a download option after uploading a file for bulk domain search",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "FinderTestData1",
-      "offset": 21
-    }
-  ],
-  "location": "FinderAppSteps.read_the_test_data_from_Excel_file_for_Finder(String)"
-});
-formatter.result({
-  "duration": 109253100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.click_on_Bulk_module()"
-});
-formatter.result({
-  "duration": 270870700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.click_on_domain_search_for_bulk_domain_search()"
-});
-formatter.result({
-  "duration": 267555800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.click_on_upload_csv_file_button_for_bulk_domain_search()"
-});
-formatter.result({
-  "duration": 221563700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.click_on_up_arrow_button_to_upload_the_file_for_bulk_domain_search()"
-});
-formatter.result({
-  "duration": 5887498800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.select_the_fields_in_mapping_screen_window_for_bulk_domain_search()"
-});
-formatter.result({
-  "duration": 1754352400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.click_on_import_from_csv_for_bulk_domain_search()"
-});
-formatter.result({
-  "duration": 95133700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.verify_user_should_get_a_download_option_after_uploading_a_file_for_bulk_domain_search()"
-});
-formatter.result({
-  "duration": 18009039100,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 420200,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "line": 82,
-  "name": "Verify that user is able to Add Edit and Delete list",
-  "description": "",
-  "id": "test-the-functionaliy-of-the-finder-app-in-500apps-portal;verify-that-user-is-able-to-add-edit-and-delete-list",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 81,
-      "name": "@Finder"
-    }
-  ]
-});
-formatter.step({
-  "line": 83,
-  "name": "Read the test data  \"\u003cFinderTestData\u003e\" from Excel file for Finder",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 85,
-  "name": "click on Lists module",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 86,
-  "name": "click on Add List",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 87,
-  "name": "enter the list name and save the list",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 88,
-  "name": "Edit the List",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 89,
-  "name": "Delete the List",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 91,
-  "name": "",
-  "description": "",
-  "id": "test-the-functionaliy-of-the-finder-app-in-500apps-portal;verify-that-user-is-able-to-add-edit-and-delete-list;",
-  "rows": [
-    {
-      "cells": [
-        "FinderTestData"
-      ],
-      "line": 92,
-      "id": "test-the-functionaliy-of-the-finder-app-in-500apps-portal;verify-that-user-is-able-to-add-edit-and-delete-list;;1"
-    },
-    {
-      "cells": [
-        "FinderTestData1"
-      ],
-      "line": 93,
-      "id": "test-the-functionaliy-of-the-finder-app-in-500apps-portal;verify-that-user-is-able-to-add-edit-and-delete-list;;2"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 1110400,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 93,
-  "name": "Verify that user is able to Add Edit and Delete list",
-  "description": "",
-  "id": "test-the-functionaliy-of-the-finder-app-in-500apps-portal;verify-that-user-is-able-to-add-edit-and-delete-list;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 81,
-      "name": "@Finder"
-    }
-  ]
-});
-formatter.step({
-  "line": 83,
-  "name": "Read the test data  \"FinderTestData1\" from Excel file for Finder",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 85,
-  "name": "click on Lists module",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 86,
-  "name": "click on Add List",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 87,
-  "name": "enter the list name and save the list",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 88,
-  "name": "Edit the List",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 89,
-  "name": "Delete the List",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "FinderTestData1",
-      "offset": 21
-    }
-  ],
-  "location": "FinderAppSteps.read_the_test_data_from_Excel_file_for_Finder(String)"
-});
-formatter.result({
-  "duration": 76557300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.click_on_Lists_module()"
-});
-formatter.result({
-  "duration": 272033100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.click_on_Add_List()"
-});
-formatter.result({
-  "duration": 4415612100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.enter_the_list_name_and_save_the_list()"
-});
-formatter.result({
-  "duration": 6185907600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.edit_the_List()"
-});
-formatter.result({
-  "duration": 4786377600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FinderAppSteps.delete_the_List()"
-});
-formatter.result({
-  "duration": 5464929800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 873400,
-  "status": "passed"
-});
 });
